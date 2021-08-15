@@ -19,7 +19,7 @@ if diff >= 0:
     diff = '+' +str(diff)
 elif diff < 0:
     diff = str(diff)
-    result = ticker + ': ' + str(last_price) + '<br>' + diff + '%' + '<br>' + day_range
+result = ticker + ': ' + str(last_price) + '<br>' + diff + '%' + '<br>' + day_range
 # If your  condition is met send it to  Telegram by pyfttt
 if last_price < min or last_price > max:
    pyfttt.send_event('pyftt_webhook', 'pyftt_event', result)
