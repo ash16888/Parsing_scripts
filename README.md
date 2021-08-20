@@ -1,1 +1,1 @@
-# st# Simple  script on Python to  track stock data  and alert you
+# st# Simple  scripts on Python to  parse webdata
